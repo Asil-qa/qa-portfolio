@@ -8,7 +8,7 @@
 
 ## Навыки
 - Ручное тестирование: тест-кейсы, чек-листы, баг-репорты;
-- API тестирование: Postman (GET, POST, PUT, DELETE);
+- API тестирование: Postman (создание коллекций, авторизация, базовые запросы);
 - SQL: SELECT, JOIN, GROUP BY, ORDER BY (SQLite, Git Bash);
 - Нагрузочное тестирование: JMeter (базовые сценарии);
 - Инструменты: DevTools, Git, Jira (базово).
@@ -54,6 +54,20 @@
 📄 [Смотреть портфолио](./sauce-demo/simpl_qa.pdf)
 
 ---
+
+## 🛠️ Примеры тестов API в Postman
+
+Коллекции Postman для тестирования учебных REST API.
+
+### 📁 Коллекции
+
+- **FakeStoreAPI** — тестирование пользователей и товаров (GET, POST, PUT, DELETE).  
+  📄 [Скачать коллекцию](./postman/collections/Swagger_Petstore.postman_collection.json)
+
+- **Olympus Demo API** — примеры запросов на авторизацию и работу с сущностями.  
+  📄 [Скачать коллекцию](./postman/collections/Olympus.postman_collection.json)
+
+> **Как использовать:** Импортируйте JSON-файл в Postman (File → Import). Коллекция готова к запуску.
 
 ## Контакты
 - **Telegram:** @trizatri

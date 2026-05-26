@@ -1,0 +1,254 @@
+{
+  "info": {
+    "_postman_id": "aec16280-e35b-43a7-9b7b-b81603cf3e65",
+    "name": "Olympus",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50050391",
+    "_collection_link": "https://go.postman.co/collection/50050391-aec16280-e35b-43a7-9b7b-b81603cf3e65?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "200 Ок - Получить список всех существ",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.qasandbox.ru/api/mythology",
+          "protocol": "https",
+          "host": [
+            "api",
+            "qasandbox",
+            "ru"
+          ],
+          "path": [
+            "api",
+            "mythology"
+          ],
+          "query": [
+            {
+              "key": "category",
+              "value": "heroes",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "sort",
+              "value": "asc",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "201 Create - Регистрация",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"username\": \"trinidat\",\r\n  \"password\": \"trinidat69\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.qasandbox.ru/api/register",
+          "protocol": "https",
+          "host": [
+            "api",
+            "qasandbox",
+            "ru"
+          ],
+          "path": [
+            "api",
+            "register"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "200 Ок - Авторизация",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"username\": \"trinidat\",\r\n  \"password\": \"trinidat69\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.qasandbox.ru/api/login",
+          "protocol": "https",
+          "host": [
+            "api",
+            "qasandbox",
+            "ru"
+          ],
+          "path": [
+            "api",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "201 Create - Создание сущности",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Тритатушки\",\r\n  \"category\": \"gods\",\r\n  \"desc\": \"Тритатушки - бог тритатушек тритата.\",\r\n  \"img\": \"https://images.unsplash.com/photo-1503152394-c571994fd383\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.qasandbox.ru/api/mythology",
+          "protocol": "https",
+          "host": [
+            "api",
+            "qasandbox",
+            "ru"
+          ],
+          "path": [
+            "api",
+            "mythology"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "200 Ок - Полное обновление сущности",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Тритатушки-три-та-та\",\r\n  \"category\": \"gods\",\r\n  \"desc\": \"Тритатушки-три-та-та - бог тритатушек три-та-та.\",\r\n  \"img\": \"https://images.unsplash.com/photo-1503152394-c571994fd383\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.qasandbox.ru/api/mythology/79",
+          "protocol": "https",
+          "host": [
+            "api",
+            "qasandbox",
+            "ru"
+          ],
+          "path": [
+            "api",
+            "mythology",
+            "79"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "200 Ок - Частичное обновление сущности",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Тритатушки\",\r\n  \"category\": \"heroes\",\r\n  \"desc\": \"Тритатушки - герой тритатушек тритата.\",\r\n  \"img\": \"https://images.unsplash.com/photo-1503152394-c571994fd383\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.qasandbox.ru/api/mythology/79",
+          "protocol": "https",
+          "host": [
+            "api",
+            "qasandbox",
+            "ru"
+          ],
+          "path": [
+            "api",
+            "mythology",
+            "79"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "204 - Удаление сущности",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.qasandbox.ru/api/mythology/79",
+          "protocol": "https",
+          "host": [
+            "api",
+            "qasandbox",
+            "ru"
+          ],
+          "path": [
+            "api",
+            "mythology",
+            "79"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{vault:authorization-secret}}",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ]
+}
