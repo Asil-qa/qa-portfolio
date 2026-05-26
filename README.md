@@ -61,7 +61,7 @@
 
 ### 📁 Коллекции
 
-- **FakeStoreAPI** — тестирование пользователей и товаров (GET, POST, PUT, DELETE).  
+- **Swagger_Petstore** — тестирование пользователей и товаров (GET, POST, PUT, DELETE).  
   📄 [Скачать коллекцию](./postman/collections/Swagger_Petstore.postman_collection.json)
 
 - **Olympus Demo API** — примеры запросов на авторизацию и работу с сущностями.  
