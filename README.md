@@ -31,7 +31,7 @@
 - **Найдено багов:** 3
 - **Статус:** 20 Passed / 2 Failed
 
-📄 [Смотреть портфолио](./souz-pribor/СП_QA.pdf)
+📄 [Смотреть портфолио](./tatspirtprom/ТСП_QA.pdf)
 
 ---
 
@@ -70,7 +70,7 @@
 > **Как использовать:** Импортируйте JSON-файл в Postman (File → Import). Коллекция готова к запуску.
 
 ## Контакты
-- **Telegram:** @trizatri
+- **Telegram:** @trizatriz
 - **Email:** sheztaisia@gmail.com
 
 ---
