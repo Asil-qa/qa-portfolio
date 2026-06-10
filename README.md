@@ -3,7 +3,7 @@
 ## Обо мне
 Начинающий тестировщик ПО. Самостоятельно изучаю тестирование, API, SQL.
 
-- **Telegram:** @trizatri
+- **Telegram:** @trizatriz
 - **Email:** sheztaisia@gmail.com
 
 ## Навыки
